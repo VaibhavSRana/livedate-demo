@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url(./livedateimg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-size: 20px;
+}
+.settings {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.settings,.fa-cong{
+    font-size: 3rem;
+    color: white;
+}
+.setting-content{
+    display: flex;
+    gap: 1rem;
+}
+
+.setting-content input {
+    padding: 0.5rem 1 rem;
+    font-size: 1rem;
+}
+.setting-content button{
+    width: 100px;
+    padding: 0.5rem 1 rem;
+    background-color: rgb(255, 111, 255);
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+}
+.hide {
+    display: none;
+}
+
+.time-container{
+     display: flex;
+     gap: 2rem;
+     justify-content: center;
+     align-items: center;
+}
+
+.time-container h2{
+     text-align: center;
+     font-size: 1.7rem;
+}
+
+.time-container div{
+    font-size: 4rem;
+    color: white;
+}
